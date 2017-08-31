@@ -1,0 +1,19 @@
+body{
+  background: black;
+  background: -webkit-linear-gradient(left top, black, silver);
+  background: -o-linear-gradient(bottom right, black, silver);
+  background: -moz-linear-gradient(bottom right, black, silver);
+  background: linear-gradient(to bottom right, black, silver);
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.card{
+  color: black;
+}
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
