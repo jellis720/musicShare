@@ -4,7 +4,7 @@ export default class PlayListItem extends Component {
   render() {
       let cards = this.props.songs.map( song => {
         return (
-              <ul className="card song-card" key={song._id}>
+              <ul className="card songCard" key={song._id}>
                 <li>
                   <span className="cardGroup">User:</span> {song.userName}
                 </li>
